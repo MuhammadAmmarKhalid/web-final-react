@@ -9,7 +9,7 @@ const NewProduct = (props) => {
 
   return (
     <Grid container spacing={3}>
-      <Grid item xs={12}>
+      <Grid item xs={12} style={{marginTop:"10%"}}>
         <h1>Add New Equipments</h1>
       </Grid>
       <Grid item xs={3}></Grid>

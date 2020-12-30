@@ -21,7 +21,7 @@ const Register = (props) => {
   const [name, setName] = React.useState("");
   return (
     <div className={classes.container}>
-      <div className={classes.child}>
+      <div className={classes.child} style={{marginTop:"10%"}}>
         <TextField
           label="Name"
           fullWidth

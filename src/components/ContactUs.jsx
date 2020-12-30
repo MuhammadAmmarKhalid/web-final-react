@@ -1,7 +1,7 @@
 import React from "react";
 const ContactUs = () => {
   return (
-    <div>
+    <div style={{marginTop:"10%"}}>
       <h1>Contact Us</h1>
     </div>
   );
