@@ -3,10 +3,14 @@ import {Carousel} from 'react-bootstrap';
 import "../App.css";
 const LandingPage = () => {
   return (
-    <div className="text body">
-            <h1>Welcome To Fitness Club </h1>
+    <div className="text">
+             <img src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style={{marginTop:"8%"}} className="textimg"/>
+            <div className="text-center">
+                  <h1>Welcome To Fitness Club </h1>
+                  <p>I Go To The GYM To Make My Soul Happy</p>
+                  </div>
        <div className="homeimg">
-             <img className="homeimg" src="https://img.freepik.com/free-photo/young-girl-playing-dumbbell-exercise-fitness_34777-396.jpg?size=626&ext=jpg"/>
+             <img className="homeimg" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80"/>
        </div>
 
        <div className="row">

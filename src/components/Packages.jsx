@@ -21,7 +21,7 @@ const Styles = makeStyles({
 export default function packages() {
   const classes = Styles();
   return (
-       <div className="package">
+       <div className="package" style={{marginTop:"10%"}}>
               <h1>Training Packages</h1>
 
         <div className="row-01">

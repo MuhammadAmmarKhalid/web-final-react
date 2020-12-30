@@ -2,12 +2,12 @@
 
        background-color:lightseagreen;
        padding: 10px;
-       padding-right: 20px;
+       padding-right: 18px;
        display: flex;
        position: relative;
        width: 98%;
-       align-items: flex-start;
-       justify-content: center;
+       /* align-items: flex-start; */
+       justify-content: left;
 }
 
 .imgset{
@@ -21,10 +21,29 @@
 .text h1{
 
     text-align: center;
-    background-color:grey;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0px;
+}
+
+.textimg{
+
+        width: 80%;
+        height: 300px;
+        margin-left: 130px;
+        
+}
+.text-center{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+     }
+.text-center p{
+
+       color:white;
+       margin-left:30px;
 }
 .homeimg{
 
@@ -70,6 +89,7 @@
        color: white;
        text-align: center;
        padding: 10px;
+       
 }
 .icon{
 

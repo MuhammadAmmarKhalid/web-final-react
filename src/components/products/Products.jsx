@@ -37,7 +37,7 @@ const Products = (props) => {
     props.history.push("/products/new");
   };
   return (
-    <div className="equipement">
+    <div className="equipement" style={{marginTop:"10%"}}>
       <h1>Equipments</h1>
       {userService.isLoggedIn() && (
         <Fab
@@ -59,6 +59,9 @@ const Products = (props) => {
           ))}
         </Grid>
       )}
+      <div class="footer-bottom"> 
+     &copy Designed by Ammar Chawla
+     </div> 
     </div>
   );
 };
